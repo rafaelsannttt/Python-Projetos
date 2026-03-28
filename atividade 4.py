@@ -1,0 +1,4 @@
+valorPrestacao = float(input("Escreva o valor da sua prestação: "))
+multa = float(input("Escreva o valor da sua multa: "))
+qtdeDias = int(input("Escreva quantos dias de atraso: "))
+prestacao = valorPrestacao + (valorPrestacao * (multa / 100) * qtdeDias)
